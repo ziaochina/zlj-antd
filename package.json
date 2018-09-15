@@ -1,0 +1,34 @@
+{
+  "isMKPresetApp": true,
+  "name": "zlj-antd",
+  "description": "zlj-antd",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "mk",
+    "monkey king",
+    "react",
+    "redux",
+    "mk-js",
+    "mk-command",
+    "zlj-antd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziaochina/zlj-antd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ziaochina/zlj-antd/issues"
+  },
+  "homepage": "https://github.com/ziaochina/zlj-antd#readme",
+  "scripts": {
+    "start": "mk start",
+    "build": "mk build",
+    "pkg": "mk pkg"
+  },
+  "dependencies": {
+    "antd": "^3.9.2",
+    "mk-command": "*"
+  }
+}
