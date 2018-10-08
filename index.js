@@ -1,28 +1,45 @@
 import pkgJson from './package.json'
-import { actionMixin, componentFactory } from 'mk-meta-engine'
+import { actionMixin, registerComponent } from 'maka'
 import * as components from './component'
 import './style.less'
+const name = pkgJson.name
 
 //注册组件
-Object.keys(components).forEach(key => {
-    componentFactory.registerComponent(key, components[key])
-})
+registerComponent('antd', components)
 
-const meta = {
-    name: 'root',
-    component: '::div',
-    _visible: 'false'
+const view = {
+    component: 'div',
+    style: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        margin: 'auto',
+        width: 300,
+        height: 200
+    },
+    children: [{
+        component: 'h1',
+        children: 'ant design component'
+    },{
+        component: 'antd.Button',
+        children: 'Button'
+    },{
+        component: 'antd.Input'
+    },{
+        component: 'antd.DatePicker'
+    },{
+        component: 'antd.Checkbox'
+    }]
 }
+
 const state = { data: {} }
 
-@actionMixin()
-class action { }
+@actionMixin('base')
+class action {}
 
-export default {
-    name: pkgJson.name,
-    version: pkgJson.version,
-    description: pkgJson.description,
-    meta,
+export {
+    name,
+    view,
     state,
     action
 }
