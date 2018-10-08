@@ -1,7 +1,7 @@
 {
   "isMakaApp": true,
-  "name": "zlj-antd",
-  "description": "zlj-antd",
+  "name": "@zlj/antd",
+  "description": "@zlj/antd",
   "version": "1.0.1",
   "license": "MIT",
   "author": "",
