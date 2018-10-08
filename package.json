@@ -1,19 +1,10 @@
 {
-  "isMKPresetApp": true,
+  "isMakaApp": true,
   "name": "zlj-antd",
   "description": "zlj-antd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
-  "author": "",
-  "keywords": [
-    "mk",
-    "monkey king",
-    "react",
-    "redux",
-    "mk-js",
-    "mk-command",
-    "zlj-antd"
-  ],
+  "author": "liujian zhang",
   "repository": {
     "type": "git",
     "url": "https://github.com/ziaochina/zlj-antd.git"
@@ -23,12 +14,17 @@
   },
   "homepage": "https://github.com/ziaochina/zlj-antd#readme",
   "scripts": {
-    "start": "mk start",
-    "build": "mk build",
-    "pkg": "mk pkg"
+    "start": "maka start",
+    "dev": "maka start --dev",
+    "build": "maka build",
+    "pkg": "maka pkg"
   },
   "dependencies": {
-    "antd": "^3.9.2",
-    "mk-command": "*"
-  }
+    "antd": "*"
+  },
+  "server": {
+    "proxy": null,
+    "port": 8000
+  },
+  "subAppDir": "./apps"
 }
