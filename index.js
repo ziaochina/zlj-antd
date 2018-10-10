@@ -1,7 +1,8 @@
-import pkgJson from './package.json'
 import { actionMixin, registerComponent } from 'maka'
+import pkgJson from './package.json'
 import * as components from './component'
 import './style.less'
+
 const name = pkgJson.name
 
 //注册组件
