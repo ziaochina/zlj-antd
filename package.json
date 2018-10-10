@@ -1,10 +1,10 @@
 {
   "isMakaApp": true,
-  "name": "@zlj/antd",
-  "description": "@zlj/antd",
-  "version": "1.0.2",
+  "name": "zlj-antd",
+  "description": "zlj-antd",
+  "version": "2.0.0",
   "license": "MIT",
-  "author": "",
+  "author": "liujian zhang",
   "repository": {
     "type": "git",
     "url": "https://github.com/ziaochina/zlj-antd.git"
