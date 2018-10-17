@@ -5,7 +5,6 @@ import './style.less'
 
 const name = pkgJson.name
 
-//注册组件
 registerComponent('antd', components)
 
 const view = {

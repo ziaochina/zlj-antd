@@ -1,16 +1,15 @@
-## 简介
 
-zlj-antd应用，用于注册ant-design组件
+zlj-antd application for registering the ant-design component
 
-## 使用方法
-你的应用可以通过增加依赖zlj-antd,来使用antd组件
+## Usage
+Your application can use antd components by add zlj-antd dependency.
 
-1. 增加依赖
+1. Add dependency
 ```bash
 $ maka add zlj-antd
 ```
 
-2. 修改view
+2. Modify the view
 ```javascript
 const view = {
     component: 'div',
@@ -21,7 +20,7 @@ const view = {
 }
 ```
 
-3. 修改index.html
+3. Modify the index.html
 ```html
 <script>
     window.main = function (maka) {
@@ -32,17 +31,17 @@ const view = {
 <script>
 ```
 
-## 下载运行
+## Download and run
 
-1. 下载
-2. 解压
-3. 进入解压目录
-4. 运行
+1. Download
+2. Decompress
+3. Enter decompress directory
+4. Run
 ```bash
 $ yarn start
 ```
 
-## 协议
+## License
 
 MIT
 
