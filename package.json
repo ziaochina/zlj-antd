@@ -2,9 +2,9 @@
   "isMakaApp": true,
   "name": "zlj-antd",
   "description": "zlj-antd application for registering the ant-design component.",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "license": "MIT",
-  "author": "liujian zhang",
+  "author": "ziaochina",
   "repository": {
     "type": "git",
     "url": "https://github.com/ziaochina/zlj-antd.git"
