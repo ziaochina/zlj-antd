@@ -29,6 +29,9 @@ const view = {
         component: 'antd.DatePicker'
     },{
         component: 'antd.Checkbox'
+    }, {
+        component: 'antd.DatePicker.MonthPicker',
+        disabled: true,
     }]
 }
 
