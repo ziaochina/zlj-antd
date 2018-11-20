@@ -21,7 +21,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "antd": "*"
+    "antd": "*",
+    "mk-rc-select": "*"
   },
   "server": {
     "proxy": null,

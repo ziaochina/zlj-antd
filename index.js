@@ -38,7 +38,11 @@ const view = {
 const state = { data: {} }
 
 @actionMixin('base')
-class action {}
+class action {
+    constructor(option) {
+        Object.assign(this, option.mixins)
+    }
+}
 
 export {
     name,
